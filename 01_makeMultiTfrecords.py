@@ -1,4 +1,10 @@
-"""Converts npy data to TFRecords file format with Example protos."""
+'''
+@Description: Make many small Tfrecord
+@Author: Jack Huang
+@Date: 2019-05-21 16:55:29
+@LastEditTime: 2019-05-21 20:02:51
+@LastEditors: Please set LastEditors
+'''
 # -*-coding:utf-8-*-
 import os
 import tensorflow as tf

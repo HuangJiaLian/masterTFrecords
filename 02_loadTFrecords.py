@@ -1,6 +1,11 @@
 '''
-Load MNIST with a list of  tfrecords
+@Description: Load MNIST with a list of tfrecords
+@Author: Jack Huang
+@Date: 2019-05-21 17:01:46
+@LastEditTime: 2019-05-21 20:02:53
+@LastEditors: Please set LastEditors
 '''
+# -*-coding:utf-8-*-
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras.datasets import mnist

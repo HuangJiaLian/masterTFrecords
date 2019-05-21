@@ -1,6 +1,11 @@
 '''
-Train MNIST with tfrecords yielded from a Numpy Dataset
+@Description: Train MNIST with tfrecords yielded from a Numpy Dataset
+@Author: Jack Huang
+@Date: 2019-05-21 17:07:37
+@LastEditTime: 2019-05-21 20:02:55
+@LastEditors: Please set LastEditors
 '''
+# -*-coding:utf-8-*-
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras.datasets import mnist

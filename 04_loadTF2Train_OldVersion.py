@@ -1,6 +1,11 @@
 '''
-Train MNIST with a list of  tfrecords
+@Description: Train MNIST with a list of  tfrecords
+@Author: Jack Huang
+@Date: 2019-05-21 17:10:53
+@LastEditTime: 2019-05-21 20:02:12
+@LastEditors: Please set LastEditors
 '''
+# -*-coding:utf-8-*-
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras.datasets import mnist
