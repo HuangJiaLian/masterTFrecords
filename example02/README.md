@@ -1,13 +1,20 @@
 # 保存加载tfrecords的另一个例子
 ## 文件结构
 ├── 01_make_one_tf_record_cool.py
+
 ├── 02_load_one_tf_record_cool.py
+
 ├── data_source
+
 │   ├── 11cut.npy
+
 │   └── 11train_config.npy
+
 ├── README.md
+
 └── tfrecords
-    └── training_data01.tfrecords
+
+​    └── training_data01.tfrecords
 
 ## 说明
 依次执行:
