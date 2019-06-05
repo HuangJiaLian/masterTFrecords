@@ -2,7 +2,7 @@
 @Description: Make many small Tfrecord
 @Author: Jack Huang
 @Date: 2019-05-21 16:55:29
-@LastEditTime: 2019-05-21 20:02:51
+@LastEditTime: 2019-06-05 10:41:46
 @LastEditors: Please set LastEditors
 '''
 # -*-coding:utf-8-*-
@@ -34,6 +34,8 @@ def convert_to(images,labels, name):
  
   filename = os.path.join('./', name + '.tfrecords')
   print('Writing', filename)
+  print('Debug:',images[0].shape, type(images[0]))
+  print('Debug:',labels[0],labels[0].shape, type(labels[0]))
   with tf.python_io.TFRecordWriter(filename) as writer:
     for index in range(num_examples):
       image_raw = images[index].tostring()
