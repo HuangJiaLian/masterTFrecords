@@ -5,7 +5,7 @@
 @Github: https://github.com/HuangJiaLian
 @Date: 2019-08-04 17:31:04
 @LastEditors: Jack Huang
-@LastEditTime: 2019-08-04 19:09:14
+@LastEditTime: 2019-08-04 19:14:52
 '''
 
 import numpy as np 
@@ -106,6 +106,7 @@ Train_labels = demo[:,1].reshape([-1,1])
 fig = plt.figure()
 ax = fig.add_subplot(1,1,1)
 ax.scatter(Train_images,Train_labels)
+ax.set_ylim([-0.6,0.6])
 plt.ion()
 plt.show()
 
