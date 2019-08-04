@@ -5,7 +5,7 @@
 @Github: https://github.com/HuangJiaLian
 @Date: 2019-08-04 17:12:30
 @LastEditors: Jack Huang
-@LastEditTime: 2019-08-04 19:03:57
+@LastEditTime: 2019-08-04 19:09:21
 '''
 import tensorflow as tf
 import numpy as np 
@@ -38,8 +38,8 @@ ys = tf.placeholder(tf.float32, [None, 1]) # * rows, 1 col
 
 
 # define hidden layer and output layer
-l1 = add_layer(xs, 1, 10, actication_function = tf.nn.relu)
-prediction = add_layer(l1, 10, 1, actication_function = None)
+l1 = add_layer(xs, 1, 20, actication_function = tf.nn.relu)
+prediction = add_layer(l1, 20, 1, actication_function = None)
 
 
 loss = tf.reduce_mean(tf.reduce_sum(tf.square(ys - prediction), 
