@@ -1,10 +1,11 @@
+# -*-coding:utf-8-*-
 '''
-@Description: 直接使用npy文件，训练一个回归模型
+@Description: 方法A: 直接使用npy文件，训练一个回归模型
 @Author: Jack Huang
 @Github: https://github.com/HuangJiaLian
 @Date: 2019-08-04 17:12:30
 @LastEditors: Jack Huang
-@LastEditTime: 2019-08-04 18:39:02
+@LastEditTime: 2019-08-04 19:03:57
 '''
 import tensorflow as tf
 import numpy as np 

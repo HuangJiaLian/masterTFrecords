@@ -1,12 +1,13 @@
+# -*- coding: utf-8 -*-  
 '''
-@Description: 
+@Description: 方法B:步骤0:将npy格式的训练数据变成tfrecord格式
 @Author: Jack Huang
 @Github: https://github.com/HuangJiaLian
 @Date: 2019-08-04 16:06:23
 @LastEditors: Jack Huang
-@LastEditTime: 2019-08-04 17:34:50
+@LastEditTime: 2019-08-04 19:04:06
 '''
-# -*- coding: utf-8 -*-  
+
 import tensorflow as tf
 import numpy as np
 import os
